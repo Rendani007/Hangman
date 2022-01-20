@@ -1,0 +1,6 @@
+Guess the word using the letters displayed below
+You have a limited number of lives (5 lives)
+You can get a hint when you get stuck on a word
+Reset button is available
+When you win or lose, a popup will be displayed 
+Each wrong guess will disable the alphabet from the list of words and your life will decrease 
