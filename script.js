@@ -126,14 +126,14 @@ const letterPress = function () {
         if (checkWord()) showNotif('won');
 
     } else {
-        decreseLife();
+        decreaseLife();
     }
-    this.classList.add('dissabled');
+    this.classList.add('disabled');
 
 };
     
 //capturing the button press
-letters.foreach(btn => {
+letters.forEach(btn => {
     btn.addEventListener('click', letterPress);
 });
 
